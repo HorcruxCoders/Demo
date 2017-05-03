@@ -51,6 +51,10 @@ typedef void (^failureBlock )(NSURLSessionTask *task, NSError *error);
 
 - (void) testhello
 {
-    
+    //dfgsdfg
 }
+-(void)testImage{
+    //my method
+}
+
 @end
