@@ -19,6 +19,7 @@ typedef void (^failureBlock )(NSURLSessionTask *task, NSError *error);
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //this is srinivas
     // Do any additional setup after loading the view, typically from a nib.
     [self postDataForUrl:nil parameters:nil success:^(NSURLSessionTask *task, id responseObject) {
         
